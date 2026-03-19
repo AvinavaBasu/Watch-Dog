@@ -73,3 +73,4 @@ state.json
 
 # Node (if any frontend tooling)
 node_modules/
+.history/

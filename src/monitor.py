@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 from typing import Optional
 
-from src.checker import AmazonChecker, ProductStatus
+from src.checker import ProductChecker, ProductStatus
 from src.config import Config
 from src.notifiers.discord import DiscordNotifier
 from src.notifiers.telegram import TelegramNotifier
@@ -20,7 +20,7 @@ class WatchDog:
 
     def __init__(self, config: Config):
         self._config = config
-        self._checker = AmazonChecker(config)
+        self._checker = ProductChecker(config)
         self._running = False
         self._previous_statuses: dict[str, ProductStatus] = {}
         self._notifiers: list = []

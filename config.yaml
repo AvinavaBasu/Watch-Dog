@@ -1,15 +1,23 @@
 products:
   - name: "Casio Youth AE-1200WHL-5AVDF"
     url: "https://www.amazon.in/dp/B0DRQSHJSC/"
-    asin: "B0DRQSHJSC"
 
-# You can add more products to monitor:
-# - name: "Another Product"
-#   url: "https://www.amazon.in/dp/XXXXXXXXXX/"
-#   asin: "XXXXXXXXXX"
+  - name: "HMT NASS 12"
+    url: "https://www.hmtwatches.store/product/44f66e4a-d6b0-4f96-a3c6-a82f1906d8bd"
+
+  - name: "HMT Watch 2"
+    url: "https://www.hmtwatches.store/product/8b54e112-0de0-4b0a-b7de-f46df2b92f81"
+
+  - name: "HMT Janata Automatic White"
+    url: "https://www.hmtwatches.store/product/44333eb5-32ae-4189-85ab-209a8a451249"
+
+  - name: "DWC Terra"
+    url: "https://delhiwatchcompany.com/products/dwc-terra"
+
+  - name: "DWC Devanagari Chronograph"
+    url: "https://delhiwatchcompany.com/products/dwc-devanagari-chronograph"
 
 check_interval_seconds: 300
-
 request_timeout: 30
 max_retries: 3
 user_agent_rotation: true

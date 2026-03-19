@@ -1,15 +1,22 @@
+# Watch Dog - Product Availability Monitor
+# Add any product URL - the parser is auto-detected from the domain.
+#
+# Supported sites: Amazon (.in/.com/.co.uk), HMT Watches, Shopify stores (DWC, etc.)
+# Unknown sites use a generic parser that works with most e-commerce sites.
+
 products:
   - name: "Casio Youth AE-1200WHL-5AVDF"
     url: "https://www.amazon.in/dp/B0DRQSHJSC/"
-    asin: "B0DRQSHJSC"
 
-# You can add more products to monitor:
-# - name: "Another Product"
-#   url: "https://www.amazon.in/dp/XXXXXXXXXX/"
-#   asin: "XXXXXXXXXX"
+  # HMT Watches
+  # - name: "HMT NASS 12"
+  #   url: "https://www.hmtwatches.store/product/44f66e4a-d6b0-4f96-a3c6-a82f1906d8bd"
+
+  # Shopify stores (DWC, etc.)
+  # - name: "DWC Terra"
+  #   url: "https://delhiwatchcompany.com/products/dwc-terra"
 
 check_interval_seconds: 300
-
 request_timeout: 30
 max_retries: 3
 user_agent_rotation: true
