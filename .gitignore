@@ -69,7 +69,7 @@ Thumbs.db
 # Project specific
 state.json
 *.log
-config.yaml
+# config.yaml  -- committed intentionally (contains only product URLs, no secrets)
 
 # Node (if any frontend tooling)
 node_modules/

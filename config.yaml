@@ -1,0 +1,16 @@
+products:
+  - name: "Casio Youth AE-1200WHL-5AVDF"
+    url: "https://www.amazon.in/dp/B0DRQSHJSC/"
+    asin: "B0DRQSHJSC"
+
+# You can add more products to monitor:
+# - name: "Another Product"
+#   url: "https://www.amazon.in/dp/XXXXXXXXXX/"
+#   asin: "XXXXXXXXXX"
+
+check_interval_seconds: 300
+
+request_timeout: 30
+max_retries: 3
+user_agent_rotation: true
+log_level: "INFO"
